@@ -1,0 +1,60 @@
+*{
+    color: white;
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    justify-items: center;
+    background-color: rgb(30, 30, 30);
+}
+div{
+    margin: 20%;
+    padding: 20px;
+    justify-items: center;
+    text-align: center;
+    background-color: black;
+    border: solid white 2px;
+    border-radius: 10px;
+
+}
+.cima{
+    width: 530px;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    background-color: black;
+    border: solid white;
+    border-radius: 5px;
+}
+.baixo{
+    margin: 0;
+    width: 550px;
+    display: block;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background-color: black;
+    border: solid white;
+    border-radius: 5px;
+}
+.botao:hover{
+    cursor: pointer;
+}
+
+.botao{
+    width: 250px;
+    padding: 20px;
+    font-size: 15px;
+    background-color: gray;
+    border: solid 1px;
+}
+
+#segredo{
+    padding: 50px;
+    background-color: rgba(250, 250, 250, 0);
+    color: rgba(30, 30, 30, 0);
+    border: 0px;
+}

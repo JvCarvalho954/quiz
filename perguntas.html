@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="perguntas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <title>Quiz</title>
+</head>
+<body>
+    <button id="segredo" class="botao" onclick="mostrar()">dica</button>
+    <p id="dica"></p>
+    <div>
+        <div class="cima">
+            <h2 id="indx">numero</h2>
+            <h2>. .</h2>
+            <h1 id="pergunta">Pergunta</h1>
+        </div>
+        <div class="baixo">
+            <button id="r1" class="botao" onclick="enviar(1)">pergunta 1</button>
+            <button id="r2" class="botao" onclick="enviar(2)">resposta 2</button>
+            <br>
+            <button id="r3" class="botao" onclick="enviar(3)">resposta 3</button>
+            <button id="r4" class="botao" onclick="enviar(4)">resposta 4</button>
+        </div>
+    </div>
+    <script src="perguntas.js"></script>
+</body>
+</html>
